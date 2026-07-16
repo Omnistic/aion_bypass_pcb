@@ -28,6 +28,15 @@ All the `SELECT` bits are common and a single `SELECT` signal is also taken from
 
 The `SELECT` line is pulled down by a 10kΩ resistor, defaulting to LOW, which corresponds to AION (for my use case).
 
+Only the `SELECT` crosses the PCB with minimal length in the back face to keep continuous ground zone.
+
 100nF capacitors are used on each IC for decoupling.
 
-Vertical through-hole SMA connectors will be soldered to the PCB. The PCB will be mounted in a case and a front panel will have SMA (inside facing) to SMB (outside facing) connectors.
+Vertical through-hole SMA connectors will be soldered to the PCB. The PCB will be mounted in a case and a front panel will have SMA (inside facing) to SMB (outside facing) connectors. Minimum distance between SMA connectors optimized for accessible mounting.
+
+## Overview
+![PCB Front View](overview_front.png)
+![PCB Back View](overview_back.png)
+
+## Acknowledgements
+We thank AFB from the [Microelectronics Design Center (ETHZ)](https://dz.ethz.ch/) for kindly reviewing the design and suggesting minor improvements (more distance between SMA connectors, mounting holes, shorter `SELECT` line on the back face).

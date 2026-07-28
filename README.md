@@ -1,4 +1,8 @@
 # PCB Design for Hardware Control of Confocal.nl AION in Bypass Mode
+## Important Notes ⚠️
+- **Current progress**: the board has been designed, printed, assembled, and tested on its own. The next step is to try it on our microscope...
+- Floating (digital) inputs should be avoided in a channel that is actively used. I had the case when testing the board, if I only wired one input, the other floating (not wired) input could be `HIGH`.
+- When testing the board, the capacitor value changes depending on how many have been soldered to the board already. If a single capacitor is soldered to the board, a multi-meter should still read 100nF. When two capacitors are soldered to the board, and one measures the value of one capacitor, it indicates 200nF. That is because the capacitors are effectively in parallel and their value adds up. With all four capacitors soldered to the board, they should all read 400nF.
 ## Problem
 The AION microscope is controlled by Confocal.nl's own controller. The Confocal.nl controller can also be controlled by the Inscoper Device Controller. The Inscoper Device Controller can control other devices as well. For this reason, the AION can be set into an _optical bypass mode_, which allows accessing the cameras through the AION without making use of the ReScan, to instead perform other kinds of microscopy. However, the cameras and the laser lines (analog and digital) are normally wired to the Confocal.nl controller. This limits the way in which the cameras and the laser lines can be controlled at the level of the Inscoper Device Controller for use in other applications.
 ## Solution
@@ -37,6 +41,9 @@ Vertical through-hole SMA connectors will be soldered to the PCB. The PCB will b
 ## Overview
 ![PCB Front View](overview_front.png)
 ![PCB Back View](overview_back.png)
+
+## Realization
+![PCB Real Front View](real_board_front.png)
 
 ## Acknowledgements
 We thank AFB from the [Microelectronics Design Center (ETHZ)](https://dz.ethz.ch/) for kindly reviewing the design and suggesting minor improvements (more distance between SMA connectors, mounting holes, shorter `SELECT` line on the back face).

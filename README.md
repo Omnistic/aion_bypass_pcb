@@ -43,6 +43,9 @@ Vertical through-hole SMA connectors will be soldered to the PCB. The PCB will b
 ![PCB Back View](overview_back.png)
 
 ## Realization
+- Printed by JLCPCB for about 32USD (5xPCBs = 18USD + shipping = 14USD)
+- Soldered manually
+
 ![PCB Real Front View](real_board_front.png)
 
 ## Acknowledgements

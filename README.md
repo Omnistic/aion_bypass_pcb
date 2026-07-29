@@ -45,6 +45,13 @@ Vertical through-hole SMA connectors will be soldered to the PCB. The PCB will b
 ## Realization
 - Printed by JLCPCB for about 32USD (5xPCBs = 18USD + shipping = 14USD)
 - Soldered manually
+- We have a local electronics workshop and I'm not sure if the price are truly accurate to the market but here is a small cost breakdown:
+  - **32x SMA connectors = 256USD**
+  - 4x 16-pin sockets = 1USD
+  - 2x SN74HC157N = 2.2USD (bought from DigiKey)
+  - 2x CD74HC4053E = 1.3USD (bought from DigiKey)
+  - 4x 100nF = 0.25USD
+  - 1x 10kΩ = 0.05USD
 
 ![PCB Real Front View](real_board_front.png)
 

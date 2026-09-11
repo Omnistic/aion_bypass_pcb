@@ -55,5 +55,13 @@ Vertical through-hole SMA connectors will be soldered to the PCB. The PCB will b
 
 ![PCB Real Front View](real_board_front.png)
 
+## Enclosure
+- 1x Enclosure [1401E (Hammond)](https://www.hammfg.com/electronics/small-case/general-purpose/1401) = 110USD
+- 32x SMA-Bulkhead cable [794-2885 (RS PRO)](https://uk.rs-online.com/web/p/coaxial-cable/7942885?gb=a) = 640USD
+
+Note: I originally ordered SMA-Bulkhead cables that were thicker (not intentionally) but they sent only a few and the others were on back order. I cancelled the order and got those above that are thinner. The reason I say this is because it is easier to assemble with the thin cables imo. And also, I am sorry for the poor cable management... The enclosure foot print is perhaps a tiny bit too small but it works.
+
+
+
 ## Acknowledgements
 We thank AFB from the [Microelectronics Design Center (ETHZ)](https://dz.ethz.ch/) for kindly reviewing the design and suggesting minor improvements (more distance between SMA connectors, mounting holes, shorter `SELECT` line on the back face).

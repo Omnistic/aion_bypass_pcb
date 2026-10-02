@@ -1,6 +1,6 @@
 # PCB Design for Hardware Control of Confocal.nl AION in Bypass Mode
 ## Important Notes ⚠️
-- **Current progress**: the board has been designed, printed, assembled, and tested on its own. The next step is to try it on our microscope...
+- **Current progress**: the board has been designed, printed, assembled, and tested on its own. The controller has also been tested on our microscope successfully. Using the `SELECT` line, one can either use the AION (Confocal.nl) or a FRAP/TIRF module with the AION in bypass mode.
 - Floating (digital) inputs should be avoided in a channel that is actively used. I had the case when testing the board, if I only wired one input, the other floating (not wired) input could be `HIGH`.
 - When testing the board, the capacitor value changes depending on how many have been soldered to the board already. If a single capacitor is soldered to the board, a multi-meter should still read 100nF. When two capacitors are soldered to the board, and one measures the value of one capacitor, it indicates 200nF. That is because the capacitors are effectively in parallel and their value adds up. With all four capacitors soldered to the board, they should all read 400nF.
 ## Problem

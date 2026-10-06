@@ -65,4 +65,4 @@ Note: I originally ordered SMA-Bulkhead cables that were thicker (not intentiona
 ![Closed Enclosure](closed_enclosure.png)
 
 ## Acknowledgements
-We thank AFB from the [Microelectronics Design Center (ETHZ)](https://dz.ethz.ch/) for kindly reviewing the design and suggesting minor improvements (more distance between SMA connectors, mounting holes, shorter `SELECT` line on the back face).
+We thank Alfonso Fontao Blanco from the [Microelectronics Design Center (ETHZ)](https://dz.ethz.ch/) for kindly reviewing the design and suggesting minor improvements (more distance between SMA connectors, mounting holes, shorter `SELECT` line on the back face).
